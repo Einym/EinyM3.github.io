@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(155, 86, 86);
+    color: white;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    height: 100%;
+    font-size: auto;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(223, 132, 132);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.content {
+    margin-top: 100px;
+}
+
+#Titulo {
+    display: block;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.Img1 {
+    margin: 7px;
+    float: left;
+}
+
+.Img2 {
+    margin: 7px;
+    float: right;
+}
+
+.Caja1 {
+    width: 626px;
+    height: 726px;
+    margin: auto;
+    background-color: rgb(223, 132, 132);
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.Hijo2 {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(autp-fil, minmax(15rem, 1fr));
+}
+
+.Caja1:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.Caja2 {
+    position: relative;
+    text-align: center;
+}
+
+.Hijo2 {
+    position: absolute;
+    background-color: rgb(223, 132, 132);
+    width: 400px;
+    height: 100px;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    margin: 50px;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.Hijo2:hover {
+    transform: scale(1.05, 1.05);
+}

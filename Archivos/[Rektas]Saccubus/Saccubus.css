@@ -1,0 +1,53 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    direction: ltr;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.Padre {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    justify-tracks: center;
+    text-justify: center;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Imagen {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 50%;
+    display: block;
+    margin: 0px auto;
+}
+
+.Saccubus {
+    width: 720px;
+    height: 1024px;
+    background-color: rgb(155, 86, 86);
+    padding: 100px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
